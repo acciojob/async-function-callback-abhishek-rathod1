@@ -18,5 +18,5 @@ async function fetchData(url1){
 
 btn.addEventListener('click',async ()=>{
 	const result = await fetchData(url);
-	op.textContent = JSON.stringify(result);
+	op.textContent = JSON.stringify(result.title);
 })
